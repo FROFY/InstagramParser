@@ -1,0 +1,19 @@
+[project]
+name = "testwork"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "FROFY"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "instagrapi (>=2.1.3,<3.0.0)",
+    "httpx (>=0.28.1,<0.29.0)",
+    "pillow (>=8.1.1)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
